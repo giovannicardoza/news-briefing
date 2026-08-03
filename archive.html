@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Briefing archive</title>
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --bg:#f6f7f9; --panel:#ffffff; --ink:#14161a; --muted:#6b7280;
+  --line:#e4e7ec; --hair:rgba(0,0,0,.05); --accent:#14161a;
+}
+@media(prefers-color-scheme:dark){
+  :root{
+    --bg:#0d0f13; --panel:#15181e; --ink:#e8eaee; --muted:#8f96a3;
+    --line:#242832; --hair:rgba(255,255,255,.05); --accent:#e8eaee;
+  }
+}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--bg); color:var(--ink);
+  font:16px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  padding:0 20px 72px;
+}
+.wrap{max-width:760px;margin:0 auto}
+header{padding:40px 0 28px;border-bottom:1px solid var(--line);margin-bottom:32px}
+.kicker{
+  font-size:11px;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--muted);font-weight:600;margin:0 0 10px
+}
+h1{margin:0;font-size:30px;line-height:1.2;letter-spacing:-.02em;font-weight:650}
+.nav{display:flex;gap:8px;flex-wrap:wrap;margin-top:20px}
+.nav a{
+  font-size:13px;text-decoration:none;color:var(--muted);
+  border:1px solid var(--line);border-radius:999px;padding:5px 13px;
+  background:var(--panel);transition:color .15s,border-color .15s
+}
+.nav a:hover{color:var(--ink);border-color:var(--muted)}
+section.bucket{
+  background:var(--panel);border:1px solid var(--line);border-radius:14px;
+  padding:22px 24px;margin-bottom:16px;position:relative;overflow:hidden
+}
+section.bucket::before{
+  content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--accent)
+}
+h2{
+  margin:0 0 14px;font-size:12px;font-weight:700;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--accent);display:flex;align-items:center;gap:9px
+}
+h2 .mark{
+  width:20px;height:20px;border-radius:6px;display:grid;place-items:center;
+  background:var(--accent);color:var(--panel);font-size:11px;letter-spacing:0
+}
+ul{margin:0;padding:0;list-style:none}
+ul li{padding:11px 0;border-top:1px solid var(--hair);font-size:15.5px}
+ul li:first-child{border-top:0;padding-top:0}
+ul li:last-child{padding-bottom:0}
+.connections{margin-top:40px}
+.connections>h2{color:var(--ink);font-size:12px;margin-bottom:16px}
+.chain{
+  background:var(--panel);border:1px solid var(--line);border-radius:14px;
+  padding:20px 22px;margin-bottom:14px
+}
+.steps{display:flex;flex-wrap:wrap;align-items:center;gap:6px 8px;margin-bottom:10px}
+.step{
+  font-size:14px;font-weight:600;line-height:1.4;
+  background:var(--hair);border-radius:7px;padding:5px 10px
+}
+.arrow{color:var(--muted);font-size:13px}
+.chain p{margin:0;color:var(--muted);font-size:14.5px;line-height:1.6}
+footer{
+  margin-top:44px;padding-top:20px;border-top:1px solid var(--line);
+  color:var(--muted);font-size:12.5px
+}
+.archive{list-style:none;padding:0;margin:0}
+.archive li{border-top:1px solid var(--line)}
+.archive li:first-child{border-top:0}
+.archive a{
+  display:flex;justify-content:space-between;gap:16px;align-items:baseline;
+  padding:15px 4px;text-decoration:none;color:var(--ink)
+}
+.archive a:hover{color:var(--muted)}
+.archive .when{color:var(--muted);font-size:13px;white-space:nowrap}
+code{
+  font:13px/1.4 ui-monospace,SFMono-Regular,Consolas,monospace;
+  background:var(--hair);border-radius:4px;padding:1px 5px
+}
+a{color:inherit}
+@media(max-width:520px){
+  body{padding:0 14px 56px}
+  header{padding:28px 0 22px;margin-bottom:24px}
+  h1{font-size:24px}
+  section.bucket,.chain{padding:18px 18px;border-radius:12px}
+}
+</style>
+</head>
+<body><div class="wrap"><header>
+<p class="kicker">Archive</p>
+<h1>13 briefings</h1>
+<nav class="nav"><a href="./index.html">Latest &rarr;</a></nav>
+</header>
+<ul class="archive"><li><a href="./2026-08-03.html">
+<span>Monday, August 3, 2026<br><span class="when">The Fed held rates at 3.50-3.75% as core PCE inflation accelerated to 3.4%, and markets are now …</span></span>
+<span class="when">2026-08-03</span></a></li><li><a href="./2026-08-02.html">
+<span>Sunday, August 2, 2026<br><span class="when">The Fed held rates at 3.5 to 3.75 percent with three dissents, and futures now price a 60 percen…</span></span>
+<span class="when">2026-08-02</span></a></li><li><a href="./2026-08-01.html">
+<span>Saturday, August 1, 2026<br><span class="when">The Fed held rates at 3.5%-3.75% on July 29 but the board remains divided on the next move, keep…</span></span>
+<span class="when">2026-08-01</span></a></li><li><a href="./2026-07-31.html">
+<span>Friday, July 31, 2026<br><span class="when">The Fed held rates at 3.50%-3.75% despite three dissenters pushing for a hike, and the Dow poste…</span></span>
+<span class="when">2026-07-31</span></a></li><li><a href="./2026-07-30.html">
+<span>Thursday, July 30, 2026<br><span class="when">The Fed held rates steady at 3.5-3.75% with a rare 9-3 dissent, the first multi-dissent vote sin…</span></span>
+<span class="when">2026-07-30</span></a></li><li><a href="./2026-07-29.html">
+<span>Wednesday, July 29, 2026<br><span class="when">The Fed's rate decision lands today, with markets pricing 64% odds of no change but several offi…</span></span>
+<span class="when">2026-07-29</span></a></li><li><a href="./2026-07-28.html">
+<span>Tuesday, July 28, 2026<br><span class="when">The Fed is holding its benchmark rate at 3.5%-3.75% as CPI runs 3.5% to 4.2% year over year, wel…</span></span>
+<span class="when">2026-07-28</span></a></li><li><a href="./2026-07-27.html">
+<span>Monday, July 27, 2026<br><span class="when">The Fed held rates steady at 3.50%-3.75%, its first pause since 2023, as June inflation cooled o…</span></span>
+<span class="when">2026-07-27</span></a></li><li><a href="./2026-07-26.html">
+<span>Sunday, July 26, 2026<br><span class="when">The Fed is widely expected to hold rates steady at its July 29 meeting, but tariffs and resilien…</span></span>
+<span class="when">2026-07-26</span></a></li><li><a href="./2026-07-25.html">
+<span>Saturday, July 25, 2026<br><span class="when">June CPI fell 0.4% month over month, the first outright drop since 2020, but annual inflation st…</span></span>
+<span class="when">2026-07-25</span></a></li><li><a href="./2026-07-24.html">
+<span>Friday, July 24, 2026<br><span class="when">The Fed meets July 28-29 with markets pricing roughly 1-in-3 odds of a hike after CPI climbed to…</span></span>
+<span class="when">2026-07-24</span></a></li><li><a href="./2026-07-23.html">
+<span>Thursday, July 23, 2026<br><span class="when">The Fed held rates at 3.50-3.75% under new Chair Kevin Warsh, who scrapped forward guidance, and…</span></span>
+<span class="when">2026-07-23</span></a></li><li><a href="./2026-07-22.html">
+<span>Wednesday, July 22, 2026<br><span class="when">The Fed held rates at 3.50%-3.75% under new Chair Kevin Warsh and stripped forward guidance from…</span></span>
+<span class="when">2026-07-22</span></a></li></ul></div></body>
+</html>
